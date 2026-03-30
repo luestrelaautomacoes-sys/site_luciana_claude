@@ -145,6 +145,13 @@ nav{
 .chip-ed:nth-child(3){border-color:rgba(60,182,160,0.25);color:var(--verde)}
 .chip-ed:nth-child(4){border-color:rgba(232,183,37,0.25);color:#7a5800}
 .sobre-cred{margin-top:48px;padding-top:36px;border-top:1px solid rgba(73,21,138,0.08);display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.social-links{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.social-btn{display:inline-flex;align-items:center;gap:8px;font-size:10px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;padding:10px 18px;border:1px solid rgba(73,21,138,0.2);color:var(--roxo);text-decoration:none;transition:all 0.2s}
+.social-btn:hover{background:var(--roxo);color:white;border-color:var(--roxo)}
+.social-btn svg{flex-shrink:0}
+.f-social{display:flex;gap:10px;align-items:center}
+.f-social a{width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;transition:all 0.2s;text-decoration:none}
+.f-social a:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.3)}
 .cred-item h4{font-size:11px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--roxo);margin-bottom:6px}
 .cred-item p{font-size:12px;font-weight:300;line-height:1.6;color:var(--mid)}
 
@@ -357,6 +364,20 @@ footer{background:var(--ink);padding:40px 72px;display:flex;justify-content:spac
     <div class="sobre-chips">
       <span class="chip-ed">Agentes de IA</span><span class="chip-ed">Automação de Vendas</span><span class="chip-ed">WhatsApp IA</span><span class="chip-ed">Infoprodutos</span>
     </div>
+    <div class="social-links">
+      <a href="https://www.instagram.com/lucianaestrela.ia?igsh=M25kc3Foa3hqYzNw" target="_blank" class="social-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com/in/lucianaestrela" target="_blank" class="social-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://youtube.com/@lucianaestrela-automacoes?si=tCkKNaujHoV1PPV6" target="_blank" class="social-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        YouTube
+      </a>
+    </div>
     <div class="sobre-cred">
       <div class="cred-item"><h4>47+ projetos entregues</h4><p>Mentoras, coaches, infoprodutores e e-commerces com resultados comprovados.</p></div>
       <div class="cred-item"><h4>🔒 Garantia de entrega</h4><p>Entregue testado e funcionando, com 30 dias de acompanhamento incluso para ajustes finos e melhorias contínuas.</p></div>
@@ -432,6 +453,17 @@ footer{background:var(--ink);padding:40px 72px;display:flex;justify-content:spac
 
 <footer>
   <div><div class="f-logo">Luciana Estrela</div><div class="f-sub">Automações & Agentes IA · @lucianaestrela.ia</div></div>
+  <div class="f-social">
+    <a href="https://www.instagram.com/lucianaestrela.ia?igsh=M25kc3Foa3hqYzNw" target="_blank" title="Instagram">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="rgba(255,255,255,0.6)" stroke="none"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/lucianaestrela" target="_blank" title="LinkedIn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="rgba(255,255,255,0.6)"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+    <a href="https://youtube.com/@lucianaestrela-automacoes?si=tCkKNaujHoV1PPV6" target="_blank" title="YouTube">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="rgba(255,255,255,0.6)"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#1a1028"/></svg>
+    </a>
+  </div>
   <div class="f-right">© 2026 · São Paulo, Brasil</div>
 </footer>
 
